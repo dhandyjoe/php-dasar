@@ -2,43 +2,28 @@
 
     // var_dump untuk mengetahui tipe data 
     var_dump(1234);
-    echo "<br>";
+    PHP_EOL;
     var_dump("Dhandy");
-    echo "<br>";
+    PHP_EOL;
     var_dump('c');
-    echo "<br>";
+    PHP_EOL;
     var_dump(1_000_000_000);
-    echo "<br>";
+    PHP_EOL;
 
     // variable
     $nomor = 0;
     $nomor = 3;
-    echo $nomor;
-    echo "<br><br><br>";
+    echo $nomor. PHP_EOL;
 
-    // pengulangan
-    for($angka1 = 0; $angka1 < 10; $angka1++) {
-        echo $angka1;
-        echo "<br>"; 
-    }
-
-
-    echo "<br>";
 
     // membuat variable menjadi immutable
     define("nama", "Dhandy");
     define("kelas", 1);
+    echo nama . PHP_EOL;
+    echo kelas . PHP_EOL;
 
-    echo nama;
-    echo "<br>";
-    echo kelas;
-    echo "<br>";
-
-
-    // Array
-    $mahasiswa = ["Dhandy", 1, false];
-    var_dump($mahasiswa);    
     
-    
-
+    // Manipulasi String
+    $nama = "Dhandy";
+    echo $nama . " Jenny" . PHP_EOL;
 ?>
