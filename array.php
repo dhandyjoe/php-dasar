@@ -20,6 +20,10 @@ foreach($data as $e) {
 }
 echo "\n";
 
+foreach($data as $d => $value) {
+    echo "Data ke $d = $value" . PHP_EOL;
+}
+
 
 // jumlah array
 echo count($data);
