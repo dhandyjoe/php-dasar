@@ -6,7 +6,7 @@
 // Menggunakan forEach akan mempercepat deklarasi array
 
 
-$mahasiswa = ["Dhandy", "Jenny", "Shiva", "Bona"];
+$mahasiswa = ["Dhandy", "Jenny", "Piano", "Bona"];
 
 
 // forEach biasa
