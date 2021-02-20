@@ -11,7 +11,6 @@
     PHP_EOL;
 
     // variable
-    $nomor = 0;
     $nomor = 3;
     echo $nomor. PHP_EOL;
 
@@ -23,7 +22,7 @@
     echo kelas . PHP_EOL;
 
     
-    // Manipulasi String
+    // Menambahkan String dengan .
     $nama = "Dhandy";
     echo $nama . " Jenny" . PHP_EOL;
 ?>
